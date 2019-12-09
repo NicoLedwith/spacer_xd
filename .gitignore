@@ -3,3 +3,4 @@ node_modules/*
 bld
 yarn-error.log
 yarn.lock
+images

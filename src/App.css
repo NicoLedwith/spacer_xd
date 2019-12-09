@@ -4,6 +4,7 @@
 .block {
     display: block;
 }
+
 .cta {
 	border: none;
 	margin: 5px auto;
@@ -23,4 +24,24 @@
 }
 .cta:active {
 	background-color: #23317d
+}
+
+.info-pane {
+	padding: 10px;
+	margin: 10px 0;
+	background: #f3f3f3;
+	border-radius: 5px;
+}
+.info-pane li {
+	margin-bottom: 3px;
+}
+.info-pane li::before {
+	content: " ";
+	margin-right: 2px;
+	width: 5px;
+	height: 5px;
+	border: 3px solid black;
+	border-radius: 3px;
+	position: relative;
+	bottom: 2px;
 }

@@ -22,7 +22,8 @@ class App extends React.Component {
 
     documentStateChanged(selection) {
         if (selection.items.length > 1) {
-            this.guessOrientation(selection.items)
+            // Needs more work
+            // this.guessOrientation(selection.items)
         }
     }
 

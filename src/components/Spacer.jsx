@@ -74,6 +74,13 @@ class Spacer extends React.Component {
 						APPLY
 					</div>
 				</div>
+				<div className="block info-pane">
+					<ul>
+						<li>Select 2 or more elements</li>
+						<li>Check vertical or horizontal spacing</li>
+						<li>Change values of spacing or click Apply</li>
+					</ul>
+				</div>
 			</div>
 		)
 	}
